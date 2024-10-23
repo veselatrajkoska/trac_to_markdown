@@ -1,0 +1,32 @@
+## USED FOR FORMATTING WIKIS ##
+
+# The path to the folder where the formatted wikis will be saved
+new_wikis_folder = ''
+
+# Your organization's base Trac link (without https://)
+trac_link = ''
+
+# Your organization's Trac docs link (without https://)
+docs_link = ''
+
+# Your organization's Trac code log link (without https://)
+code_link = ''
+
+# Name of your Trac database
+trac_db = ''
+
+# Path to your Trac environment backup
+trac_env_path = ''
+
+# Trac specific wiki pages
+ignored_wikis = [
+    'CamelCase',
+    'InterMapTxt',
+    'InterTrac',
+    'InterWiki',
+    'TicketQuery',
+    'Trac*',
+    'Wiki*',
+
+    # Add any other wikis which should be skipped
+]
